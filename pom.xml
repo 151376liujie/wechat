@@ -1,0 +1,41 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+         http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>wechat</groupId>
+    <artifactId>wechat-core</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0</version>
+
+    <name>wechat core Webapp</name>
+    <url>http://maven.apache.org</url>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.source>1.7</maven.compiler.source>
+        <maven.compiler.target>1.7</maven.compiler.target>
+        <maven.compiler.compilerVersion>1.7</maven.compiler.compilerVersion>
+        <xstream.version>1.4.8</xstream.version>
+        <dom4j.version>1.6.1</dom4j.version>
+        <commons.lang.version>3.4</commons.lang.version>
+        <slf4j.log4j.version>1.6.1</slf4j.log4j.version>
+        <servlet.api.version>3.1.0</servlet.api.version>
+        <spring.version>4.2.5.RELEASE</spring.version>
+        <guava.version>19.0</guava.version>
+        <spring.version>4.2.5.RELEASE</spring.version>
+        <junit.version>4.12</junit.version>
+        <jackson.version>2.8.0</jackson.version>
+        <jsoup.version>1.9.2</jsoup.version>
+        <jedis.version>2.8.1</jedis.version>
+        <httpclient.version>4.4</httpclient.version>
+    </properties>
+
+    <modules>
+        <module>wechat-message-pojo</module>
+        <module>wechat-base</module>
+        <module>wechat-service</module>
+        <module>wechat-web</module>
+    </modules>
+
+</project>

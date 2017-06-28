@@ -1,0 +1,9 @@
+#idea
+.idea/
+*.iml
+
+#maven
+target/
+
+#config
+src/main/resources/wechat.properties
